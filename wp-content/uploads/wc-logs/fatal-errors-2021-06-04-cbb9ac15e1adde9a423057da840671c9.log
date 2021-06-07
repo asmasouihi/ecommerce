@@ -1,0 +1,12 @@
+2021-06-04T14:22:34+00:00 CRITICAL Uncaught Error: Class 'Wt_Import_Export_For_Woo_Basic_Common_Helper' not found in /opt/lampp/htdocs/ecommerce/wordpress/wp-content/plugins/product-import-export-for-woo/includes/class-wt-product-legacy-menu-moved.php:27
+Stack trace:
+#0 /opt/lampp/htdocs/ecommerce/wordpress/wp-content/plugins/product-import-export-for-woo/product-import-export-for-woo.php(205): wt_product_legacy_menu_moved->__construct('product')
+#1 /opt/lampp/htdocs/ecommerce/wordpress/wp-admin/includes/plugin.php(670): include_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/ecommerce/wordpress/wp-admin/plugins.php(58): activate_plugin('product-import-...', 'http://localhos...', false)
+#3 {main}
+  thrown in /opt/lampp/htdocs/ecommerce/wordpress/wp-content/plugins/product-import-export-for-woo/includes/class-wt-product-legacy-menu-moved.php on line 27
+
+2021-06-04T14:22:39+00:00 CRITICAL Cannot redeclare activate_wt_import_export_for_woo_basic_product() (previously declared in /opt/lampp/htdocs/ecommerce/wordpress/wp-content/plugins/product-import-export-for-woo/product-import-export-for-woo.php:64) in /opt/lampp/htdocs/ecommerce/wordpress/wp-content/plugins/product-import-export-for-woo/product-import-export-for-woo.php on line 66
+
+2021-06-04T14:22:41+00:00 CRITICAL Cannot redeclare activate_wt_import_export_for_woo_basic_product() (previously declared in /opt/lampp/htdocs/ecommerce/wordpress/wp-content/plugins/product-import-export-for-woo/product-import-export-for-woo.php:64) in /opt/lampp/htdocs/ecommerce/wordpress/wp-content/plugins/product-import-export-for-woo/product-import-export-for-woo.php on line 66
+
